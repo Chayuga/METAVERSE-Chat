@@ -5,7 +5,6 @@ const Login = () => {
   const { authenticate } = useMoralis();
   return (
     <div className="bg-black relative">
-      <h1>I am a Login page</h1>
       <div className="flex flex-col absolute z-50 h-2/3 w-full items-center justify-center space-y-4">
         <Image
           className="object-cover rounded-full"
